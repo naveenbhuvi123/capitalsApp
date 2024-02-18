@@ -1,0 +1,64 @@
+.capitols-app {
+  background-color: #93c5f5;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 45vw;
+  border-radius: 15px;
+  font-family: roboto;
+}
+@media (max-width: 576px) {
+  .card-container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 85vw;
+    border-radius: 15px;
+    font-family: roboto;
+  }
+  .main-heading {
+    font-size: 26px;
+  }
+
+  .capitol-select {
+    min-width: 100px;
+    height: 45px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+.main-heading {
+  font-weight: bold;
+  font-size: 33px;
+  color: #323f4b;
+}
+.capitols {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.capitol-select {
+  width: 180px;
+  height: 35px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.heading {
+  font-size: 15px;
+  color: #1e293b;
+}
+.capitol-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #323f4b;
+}
